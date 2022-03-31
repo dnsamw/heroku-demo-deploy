@@ -16,6 +16,10 @@ def favicon():
 def home():
     return "I'm alive"
 
+@app.route('/items')
+def home():
+    return "Items route is working.."
+
 
 # def run():
 #     #app.run(host='localhost', port=8080)
